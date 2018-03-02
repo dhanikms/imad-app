@@ -127,7 +127,7 @@ pool.query("SELECT * FROM ARTICLE where title=" +req.params.articleName,function
     
 });
 
-  res.send(createTemplate(articles[article.Name]));
+  res.send(createTemplate(articles[articleName]));
 });
 app.get('/article-two',function (req, res) {
  res.sendFile(path.join(__dirname, 'ui', 'article-two.html'));
