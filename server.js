@@ -35,7 +35,8 @@ var articles = {
                  <p>
                      This is the content of  my second article.This is the content of  my second article.This is the content of  my second article.
                 </p>`},
-     'article-three':{title:'Article Three | Mohit Singh Dhanik',
+     'article-three':{
+         title:'Article Three | Mohit Singh Dhanik',
         heading:'Article Three',
         date:'Feb 21,2016',
         content:`
